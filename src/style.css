@@ -1,6 +1,80 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
-/* Seu código css aqui */
+body {
+  background-color: #ebebee;
+}
+
+section {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.Título {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 36px 0;
+}
+
+.Título h1 {
+  font: bold 24px "Roboto", sans-serif;
+  color: #666666;
+  margin: 0 16px 0 0;
+}
+
+.Título a {
+  font: bold 12px "Roboto", sans-serif;
+  color: rgb(7, 76, 179);
+}
+
+.Título a:hover {
+  color: rgb(143, 27, 75);
+}
+
+.Lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Card {
+  background: #ffffff;
+  width: 250px;
+  box-shadow: 6px 6px 7px 6px rgba(0, 0, 0, 0.75);
+}
+
+.Card img {
+  width: 250px;
+}
+
+.Card .Detalhes {
+  padding: 16px;
+  border-top: 2px solid #dddddd;
+}
+
+.Card .Detalhes h2 {
+  font: bold 24px "Roboto", sans-serif;
+  color: #333333;
+  margin: 0 0 4px 0;
+}
+
+.Card .Detalhes span {
+  display: block;
+  font: bold 16px "Roboto", sans-serif;
+  color: #a53232;
+  margin: 0 0 16px 0;
+}
+
+.Card .Detalhes p {
+  display: none;
+  font: 12px "Roboto", sans-serif;
+  color: #666666;
+}
+
+.Card:hover .Detalhes p {
+  display: block;
+}
